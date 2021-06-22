@@ -16,7 +16,7 @@ function createNavBar() {
     home.href = "#home";
     menu.href = "#menu";
     aboutUs.href = "#about-us";
-    contactUs.href = "#contatc-us";
+    contactUs.href = "#contact-us";
 
     navBar.appendChild(home);
     navBar.appendChild(menu);
