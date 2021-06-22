@@ -7,7 +7,7 @@ function addP(text) {
 function aboutUs() {
     const about = document.createElement("div");
     about.classList.add("about-us");
-    about.id = "about-us";
+    about.id = "about-us"; //for linking with the navBar
 
     const odinImg = document.createElement("img");
     odinImg.src = "../assets/odin.jpg";
