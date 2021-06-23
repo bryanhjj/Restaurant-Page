@@ -28,8 +28,8 @@ function createNavBar() {
 };
 
 function navBarLoader() {
-    const content = document.getElementById("content");
-    content.appendChild(createNavBar());
+    const buttonContainer = document.getElementById("button-container");
+    buttonContainer.appendChild(createNavBar());
 };
 
 export default navBarLoader;
