@@ -10,9 +10,12 @@ function createNavBar() {
     aboutUs.innerHTML = "About Us";
     contactUs.innerHTML = "Contact Us";
 
-    home.classList.add("home");
-    aboutUs.classList.add("about-us");
-    contactUs.classList.add("contact-us");
+    home.classList.add("buttons");
+    aboutUs.classList.add("buttons");
+    contactUs.classList.add("buttons");
+    home.id = "home";
+    aboutUs.id = "about-us";
+    contactUs.id = "contact-us";
 
     /* initially the plan was just to create links to specific sections of the same webpage, change of plans 
     home.href = "#home";

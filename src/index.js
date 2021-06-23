@@ -20,9 +20,9 @@ function divInitialize() {
 
 divInitialize();
 
-const homeButton = document.querySelector(".home");
-const aboutUsButton = document.querySelector(".about-us");
-const contactUsButton = document.querySelector(".contact-us");
+const homeButton = document.querySelector("#home");
+const aboutUsButton = document.querySelector("#about-us");
+const contactUsButton = document.querySelector("#contact-us");
 
 homeButton.addEventListener("click", () => {
     const content = document.getElementById("content");
