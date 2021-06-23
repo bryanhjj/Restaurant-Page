@@ -74,6 +74,11 @@ body {
     text-align: center;
     justify-content: center;
     vertical-align: middle;
+    background-color: #5b5b5b;
+    min-width: 600px;
+    min-height: 500px;
+    padding-top: 180px;
+    animation: fadeIn ease 2s;
 }
 
 .home p {
@@ -88,11 +93,17 @@ body {
     text-align: center;
     justify-content: center;
     vertical-align: middle;
+    background-color: #5b5b5b;
+    min-width: 600px;
+    min-height: 500px;
+    padding-top: 50px;
+    animation: fadeIn ease 2s;
 }
 
 .about-us img {
     width: 300px;
     height: 300px;
+    border-radius: 150px;
 }
 
 .about-us p {
@@ -107,6 +118,10 @@ body {
     text-align: center;
     justify-content: center;
     vertical-align: middle;
+    background-color: #5b5b5b;
+    min-width: 600px;
+    min-height: 500px;
+    animation: fadeIn ease 2s;
 }
 
 .contact-us img {
@@ -119,4 +134,15 @@ body {
     font-size: 1.5rem;
     color: whitesmoke;
     vertical-align: middle;
+}
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+      }
+      100% {
+        opacity:1;
+      }
 }
