@@ -31,7 +31,7 @@ body {
 }
 
 #button-container::after {
-    background-image: url("../assets/banner.png");
+    background-image: url("./assets/banner.png");
     opacity: 0.6;
     background-size: cover;
     background-repeat: no-repeat;
