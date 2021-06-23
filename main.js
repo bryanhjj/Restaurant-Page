@@ -24,7 +24,7 @@ function aboutUs() {
     about.id = "about-us";
 
     const odinImg = document.createElement("img");
-    odinImg.src = "../assets/odin.jpg";
+    odinImg.src = "./assets/odin.jpg";
     odinImg.alt = "A picture of Odin.";
 
     about.appendChild(odinImg);
@@ -67,7 +67,7 @@ function contactUs() {
     contact.id = "contact-us";
 
     const location = document.createElement("img");
-    location.src = "../assets/asgard.jpg";
+    location.src = "./assets/asgard.jpg";
     location.alt = "A map showing where our restaurant is located."
 
     contact.appendChild(addP("Phone: 012 345 678"));
