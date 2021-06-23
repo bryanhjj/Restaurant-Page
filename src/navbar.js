@@ -2,24 +2,25 @@ function createNavBar() {
     const navBar = document.createElement("nav");
     navBar.classList.add("navBar");
 
-    const home = document.createElement("a");
-    const menu = document.createElement("a");
-    const aboutUs = document.createElement("a");
-    const contactUs = document.createElement("a");
+    const home = document.createElement("button");
+    const aboutUs = document.createElement("button");
+    const contactUs = document.createElement("button");
 
     home.innerHTML = "Home";
-    menu.innerHTML = "Menu";
     aboutUs.innerHTML = "About Us";
     contactUs.innerHTML = "Contact Us";
 
-    // to update once the sections' id are defined
+    home.classList.add("home");
+    aboutUs.classList.add("about-us");
+    contactUs.classList.add("contact-us");
+
+    /* initially the plan was just to create links to specific sections of the same webpage, change of plans 
     home.href = "#home";
-    menu.href = "#menu";
     aboutUs.href = "#about-us";
     contactUs.href = "#contact-us";
+    */
 
     navBar.appendChild(home);
-    navBar.appendChild(menu);
     navBar.appendChild(aboutUs);
     navBar.appendChild(contactUs);
 

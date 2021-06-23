@@ -8,7 +8,7 @@ function addP(text) {
 function createHome() {
     const home = document.createElement("div");
     home.classList.add("home");
-    home.id = "home"; //for linking with the navBar
+    home.id = "home";
 
     home.appendChild(addP("The best restaurant in Asgard!"));
     home.appendChild(addP("Founded by our lord Odin himself!"));

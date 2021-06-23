@@ -7,7 +7,7 @@ function addP(text) {
 function contactUs() {
     const contact = document.createElement("div");
     contact.classList.add("contact-us");
-    contact.id = "contact-us"; //for linking with the navBar
+    contact.id = "contact-us";
 
     const location = document.createElement("img");
     location.src = "../assets/asgard.jpg";
@@ -21,7 +21,7 @@ function contactUs() {
 };
 
 function contactUsLoader() {
-    const content = document.getElementById("footer");
+    const content = document.getElementById("content");
     content.appendChild(contactUs());
 };
 
